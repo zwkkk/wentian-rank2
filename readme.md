@@ -15,48 +15,70 @@ CUDNN: 8
 
 cd season1  
 #### 1 安装虚拟环境  
-conda create -n season1 python=3.7  
-conda activate season1 # 进入虚拟环境
+```  
+conda create -n season1 python=3.7     
+conda activate season1 # 进入虚拟环境  
+```    
 #### 2 安装pytorch  
+``` 
 pip3 install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html  
+``` 
 #### 3 apex 安装  
+``` 
 git clone https://www.github.com/nvidia/apex # 若网不好，可以先下载https://www.github.com/nvidia/apex到本地  
 cd apex  
 python3 setup.py install  
 cd ..  
+``` 
 #### 4 sentval 安装  
+``` 
 git clone https://github.com/cqulun123/SentEval.git  # 若网不好 可以先下载到本地  
 cd sentval  
 python3 setup.py install  
 cd ..  
+``` 
 #### 5 其他库安装  
-python3 -m pip install -r requirements.txt  
+``` 
+python3 -m pip install -r requirements.txt 
+``` 
 #### 6 预训练模型下载  
+``` 
 chinese-macbert-large： https://huggingface.co/hfl/chinese-macbert-large/tree/main，下载config.json,pytorch_model.bin,vocab.txt放置到pretrained_model/chinese-macbert-large下  
 bart-large-chinese： https://huggingface.co/fnlp/bart-large-chinese/tree/main，下载config.json,pytorch_model.bin,vocab.txt放置到bart/bart-large-chinese下  
-#### 7 season1代码运行  
+``` 
+#### 7 season1代码运行
+``` 
 sh run.sh  
-
+``` 
 ### season2  
 0 运行要求  
 GPU：P40 * 1  
 CUDA: 9.0  
 CUDNN: 7  
-整体运行时长：精排侧约18h  
+整体运行时长：精排侧约18h 
+``` 
 cd season2  
+``` 
 #### 1 安装虚拟环境  
+``` 
 conda create -n season2 python=3.6    
 conda activate season2 # 进入虚拟环境  
+``` 
 #### 2 ubuntu20.04安装cuda9环境可参考  
 https://zwk.notion.site/tensorflow1-12-21efa645c6ec4a7d82460368de06172f  
 #### 3 库安装  
+``` 
 python3 -m pip install -r requirements.txt  
+``` 
 #### 4 预训练模型下载  
+``` 
 chinese_bert_wwm_L-12_H-768_A-12： https://github.com/ymcui/Chinese-BERT-wwm下载【BERT-wwm-ext, Chinese】对应的tensorflow文件，下载网址：https://pan.baidu.com/s/1x-jIw1X2yNYHGak2yiq4RQ?pwd=wgnt  
 下载完放置到pretrained_model文件夹  
+``` 
 #### 5 模型训练  
+``` 
 sh run.sh
-
+``` 
 ## 目录结构
 -- season1  
 ---- pretrained_model  预训练模型地址  
