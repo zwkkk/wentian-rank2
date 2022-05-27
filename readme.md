@@ -1,18 +1,7 @@
 ## 写在前面  
-环境配置和运行过程有任何问题，联系：  
-手机：18628026406（微信同号）  
-邮箱：396635841@qq.com  
-
 队伍名：诗人藏夜里.  
 复赛排名：2  
-复赛成绩：0.3890  
-备注：1. 召回侧训练步骤较多，换机子运行对最终结果会存在0.00几的波动。  2.提交的代码除了原始数据放置在season1/data文件下意外，其他预训练模型，中间过程数据/文件均已删除。  3.最终代码提交版对过程做了稍许优化调整，在小数据集测试通过，若存在运行问题，请及时联系我，谢谢🙏。  
-  
-代码讲解视频：链接: https://pan.baidu.com/s/1vf1XM9MqiIbIgJrPJgYpJA 提取码: 3kdo  
-    
-方案快速讲解视频：链接: https://pan.baidu.com/s/14Id8WQYiDx6GDAvhC5AxtA 提取码: 2nah  
-  
-过程中生成的文件可参考：链接: https://pan.baidu.com/s/1uqpB7jdYeTw7BWloZ5O1bA 提取码: dhvf ，主要为season1/pretrained_model/MLM_macbert_external,season1/bart/result,season1/result/macbert_result下的模型文件。   
+复赛成绩：0.3890   
   
 外部数据地址：https://github.com/Alibaba-NLP/Multi-CPR  
 
