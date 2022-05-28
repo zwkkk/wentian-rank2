@@ -12,8 +12,9 @@ GPU：A100 * 8 （必须A100）
 CUDA: 11.4  
 CUDNN: 8  
 整体运行时长：召回侧约70h  
-
+``` 
 cd season1  
+``` 
 #### 1 安装虚拟环境  
 ```  
 conda create -n season1 python=3.7     
