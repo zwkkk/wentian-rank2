@@ -12,7 +12,7 @@
 ## 环境配置与运行指南  
 ### season1  
 #### 0 运行要求  
-GPU：A100 * 8 (不同显存需要更改batch size）
+GPU：A100 * 8 (不同显存需要更改batch size）  
 CUDA: 11.4  
 CUDNN: 8  
 整体运行时长：召回侧约70h  
