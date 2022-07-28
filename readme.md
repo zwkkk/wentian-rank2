@@ -3,12 +3,16 @@
 复赛排名：2  
 复赛成绩：0.3890   
   
-外部数据地址：https://github.com/Alibaba-NLP/Multi-CPR  
+外部数据地址：https://github.com/Alibaba-NLP/Multi-CPR   
+
+介绍地址：https://zhuanlan.zhihu.com/p/533923570  
+
+欢迎交流  
 
 ## 环境配置与运行指南  
 ### season1  
 #### 0 运行要求  
-GPU：A100 * 8 （必须A100）  
+GPU：A100 * 8 (不同显存需要更改batch size）
 CUDA: 11.4  
 CUDNN: 8  
 整体运行时长：召回侧约70h  
