@@ -70,7 +70,7 @@ conda create -n season2 python=3.6
 conda activate season2 # 进入虚拟环境  
 ``` 
 #### 2 ubuntu20.04安装cuda9环境可参考  
-[https://zwk.notion.site/tensorflow1-12-21efa645c6ec4a7d82460368de06172f  ](https://zhuanlan.zhihu.com/p/521132179)  
+https://zhuanlan.zhihu.com/p/521132179  
 #### 3 库安装  
 ``` 
 python3 -m pip install -r requirements.txt  
